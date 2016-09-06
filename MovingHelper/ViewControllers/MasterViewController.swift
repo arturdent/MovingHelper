@@ -124,7 +124,7 @@ extension MasterViewController: MovingDateDelegate {
 
 //MARK: - Table View Data Source Extension
 
-extension MasterViewController : UITableViewDataSource {
+extension MasterViewController {
   
   private func taskForIndexPath(indexPath: NSIndexPath) -> Task {
     let tasks = tasksForSection(indexPath.section)
